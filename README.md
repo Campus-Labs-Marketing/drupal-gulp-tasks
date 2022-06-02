@@ -1,9 +1,6 @@
 Gulp Drupal Tasks
 =================
 
-[![CircleCI](https://circleci.com/gh/LastCallMedia/gulp-drupal-tasks.svg?style=svg)](https://circleci.com/gh/LastCallMedia/gulp-drupal-tasks) 
-[![codecov](https://codecov.io/gh/LastCallMedia/gulp-drupal-tasks/branch/master/graph/badge.svg)](https://codecov.io/gh/LastCallMedia/gulp-drupal-tasks)
-
 This library provides a set of common Gulp tasks for working with PHP/Drupal. The goals are:
 
 1. Provide a single point of management for updating the Gulp tasks across all of LCM's Drupal builds.
@@ -41,7 +38,3 @@ Guidelines for development:
 3. All tasks should fail predictably (no plugin failures that don't also fail the build).
 4. Task configuration should be explicitly checked as quickly as possible.
 5. Don't put slow calls into the critical path.  Gulp boot should be as fast as possible.  Delay slow requires or file existence checks until the task is actually executed.
-
-Publishing on NPM
------------------
-When you are ready to release a new version, run `npm version X.X.X`.  This will update the version in package.json, and create a new tagged commit.  Just push it to github using `git push origin master --follow-tags`, and CircleCI will deploy it to NPM.

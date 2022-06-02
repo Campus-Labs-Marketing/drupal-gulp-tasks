@@ -1,6 +1,12 @@
 Development
 -----------
 
+3.1.0
+-----
+- Upgrade the versions in package.json
+- Add contributors to package.json
+- Update the README.md
+
 3.0.0
 -----
 - Upgrade to gulp 4.x.
